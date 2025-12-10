@@ -23,14 +23,14 @@ user_qualification = user_repository.get_qualification()
 
 # If failed, show reset and force pass buttons
 if user_qualification == -1:
-    st.warning("Sie haben den Qualifikationstest bereits versucht und nicht bestanden.")
+    st.warning("⚠️ Sie haben den Qualifikationstest bereits versucht und nicht bestanden.")
     
     st.markdown("### Test-Modus Optionen:")
     
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button(" Reset", use_container_width=True):
+        if st.button("🔄 Reset", use_container_width=True):
             try:
                 conn = st.session_state.conn
                 cursor = conn.cursor()
@@ -51,7 +51,7 @@ if user_qualification == -1:
                             cursor.close()
                             if 'qualification_progress' in st.session_state:
                                 del st.session_state.qualification_progress
-                            st.success(" Reset!")
+                            st.success("✅ Reset!")
                             import time
                             time.sleep(0.5)
                             st.rerun()
@@ -63,7 +63,7 @@ if user_qualification == -1:
                 st.error(f"Error: {e}")
     
     with col2:
-        if st.button(" Force Pass", use_container_width=True):
+        if st.button("✅ Force Pass", use_container_width=True):
             try:
                 conn = st.session_state.conn
                 cursor = conn.cursor()
@@ -82,7 +82,7 @@ if user_qualification == -1:
                         if cursor.rowcount > 0:
                             conn.commit()
                             cursor.close()
-                            st.success(" Passed!")
+                            st.success("✅ Passed!")
                             import time
                             time.sleep(0.5)
                             st.rerun()
@@ -98,7 +98,7 @@ if user_qualification == -1:
     st.markdown(f"**Code:** {prolific_code}")
 
 elif user_qualification == 1:
-    st.markdown("## Qualifikationstest bestanden!")
+    st.markdown("## ✅ Qualifikationstest bestanden!")
     st.success("Wählen Sie **Annotation** in der Seitenleiste.")
     st.balloons()
 
@@ -107,9 +107,9 @@ else:
     index = int(st.session_state.qualification_progress)
 
     if index == 1:
-        st.write("## Qualifikationstest")
+        st.write("## 📝 Qualifikationstest")
         st.write("**8 von 10 Fragen erforderlich.**")
-        st.info(" Test-Modus: Auto-Pass aktiviert")
+        st.info("🧪 Test-Modus: Auto-Pass aktiviert")
         st.markdown("---")
 
     st.caption(f"Frage {index} von 10")
@@ -129,7 +129,7 @@ else:
 
     if next_input:
         if index == 10:
-            st.info(" Checking...")
+            st.info("⏳ Checking...")
             # Use the inline function instead of imported one
             core_utils.handle_next_button(annotation, index, samples, "qualification", check_if_qualified_inline)
         else:
