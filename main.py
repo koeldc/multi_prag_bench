@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 from core.scripts import database_repository, utils, user_repository
 
-print(os.getenv("ADMIN_PASSWORD"))
-
 if "user_id" not in st.session_state:
     st.session_state.user_id = ""
 

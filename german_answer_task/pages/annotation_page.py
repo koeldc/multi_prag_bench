@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-from core.scripts import user_repository
+from core.scripts import user_repository, utils as core_utils
 from core.scripts.utils import read_json_from_file, TASK_INFO, skip_to_next_sample
 from german_answer_task.common import utils, database_utils
 
@@ -42,24 +42,13 @@ else:
     }
 
     if next_input:
-        # Use custom save function
-        saved = database_utils.save_annotation_safe(st.session_state.user_id, index, annotation)
+        # the normal script should work fine
+        core_utils.handle_next_button(annotation, index, samples, "annotation", None)
         
-        if saved:
-            st.success(f"✅ Sample {index} gespeichert")
-        else:
-            st.warning("⚠️ Konnte nicht speichern")
-        
-        # Advance to next
-        if index < len(samples):
-            st.session_state.progress = index + 1
-        else:
+        if index >= len(samples):
             st.info("🎉 Alle Samples annotiert!")
-        
-        st.rerun()
 
     if back_button:
         # Go back
-        if index > 1:
-            st.session_state.progress = index - 1
-            st.rerun()
+        # a properly working back button is deceptively complex, so use the function here too
+        core_utils.handle_back_button(annotation, index, samples, "annotation")

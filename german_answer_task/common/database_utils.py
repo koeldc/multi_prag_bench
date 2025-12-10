@@ -4,7 +4,8 @@ Database utilities for German Answer Task
 import streamlit as st
 import json
 
-
+# letting copilot handle the database is dangerous.
+'''
 def save_annotation_safe(user_id, index, annotation):
     """
     Safely save annotation to database with proper error handling.
@@ -133,3 +134,4 @@ def save_annotation_safe(user_id, index, annotation):
                 pass
         
         return False
+'''

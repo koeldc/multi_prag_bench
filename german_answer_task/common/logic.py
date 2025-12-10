@@ -19,94 +19,28 @@ if user_qualification == -1:
     
     col1, col2 = st.columns(2)
     
+    # seems to be the same as on qualification_page?
     with col1:
-        if st.button("🔄 Qualifikation zurücksetzen", use_container_width=True):
+        if st.button("🔄 Reset", use_container_width=True):
             try:
-                conn = st.session_state.conn
-                cursor = conn.cursor()
-                
-                # Find all tables
-                cursor.execute("""
-                    SELECT table_name 
-                    FROM information_schema.tables 
-                    WHERE table_schema = 'public'
-                """)
-                
-                found = False
-                for table in cursor.fetchall():
-                    table_name = table[0]
-                    try:
-                        cursor.execute(f"""
-                            UPDATE {table_name} 
-                            SET qualification = 0 
-                            WHERE user_id = %s
-                        """, (st.session_state.user_id,))
-                        
-                        if cursor.rowcount > 0:
-                            conn.commit()
-                            cursor.close()
-                            
-                            # Reset session state
-                            if 'qualification_progress' in st.session_state:
-                                del st.session_state.qualification_progress
-                            
-                            st.success("✅ Zurückgesetzt!")
-                            found = True
-                            import time
-                            time.sleep(0.5)
-                            st.rerun()
-                            break
-                    except:
-                        continue
-                
-                if not found:
-                    st.error("Tabelle nicht gefunden")
-                cursor.close()
-                    
+                # qualification 0 -> neither qualified nor unqualified
+                user_repository.set_qualification(st.session_state.user_id, 0)
+                # set the index-tracking qualification progress back to 1
+                st.session_state["qualification_progress"] = 1
+                # remove the annotations done so far for a proper reset
+                user_repository.reset_annotation(st.session_state.user_id, key="qualification")
+                st.rerun()  # reload (probably necessary)
             except Exception as e:
-                st.error(f"Fehler: {e}")
+                st.error(f"Error: {e}")
     
     with col2:
-        if st.button("✅ Qualifikation erzwingen (Pass)", use_container_width=True):
+        if st.button("✅ Force Pass", use_container_width=True):
             try:
-                conn = st.session_state.conn
-                cursor = conn.cursor()
-                
-                # Find all tables
-                cursor.execute("""
-                    SELECT table_name 
-                    FROM information_schema.tables 
-                    WHERE table_schema = 'public'
-                """)
-                
-                found = False
-                for table in cursor.fetchall():
-                    table_name = table[0]
-                    try:
-                        cursor.execute(f"""
-                            UPDATE {table_name} 
-                            SET qualification = 1 
-                            WHERE user_id = %s
-                        """, (st.session_state.user_id,))
-                        
-                        if cursor.rowcount > 0:
-                            conn.commit()
-                            cursor.close()
-                            st.success("✅ Qualifikation bestanden!")
-                            found = True
-                            import time
-                            time.sleep(0.5)
-                            st.rerun()
-                            break
-                    except:
-                        continue
-                
-                if not found:
-                    st.error("Tabelle nicht gefunden")
-                cursor.close()
-                    
+                # qualification 1 -> qualified
+                user_repository.set_qualification(st.session_state.user_id, 1)
+                st.rerun()  # reload page to go back to the beginning of the script and show the "bestanden" message
             except Exception as e:
-                st.error(f"Fehler: {e}")
+                st.error(f"Error: {e}")
     
     st.markdown("---")
     prolific_code = os.getenv("PROLIFIC_SCREENOUT_CODE", "CF2QBA7L")

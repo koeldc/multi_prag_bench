@@ -21,8 +21,8 @@ def print_annotation_schema(mode, index):
         sample = samples[str(index)]
     else:
         samples = read_json_from_file(TASK_INFO["german_answer_task"]["annotation_filepath"])
-        # Annotation is a list of dicts from JSONL: [{...}, {...}, ...]
-        sample = samples[index - 1]  # index is 1-based, list is 0-based
+        # annotation now similar to qualification, makes saving easier
+        sample = samples[str(index)]  # preferably keep everything 1-based for simplicity
     
     # Display sample info
     st.markdown(f"### 📝 Sample {index} von {len(samples)}")
