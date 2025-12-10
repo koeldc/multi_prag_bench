@@ -1,0 +1,902 @@
+[
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Soll ich dich nach Hause fahren?\nResponse: Ich will , dass ich mich nach Hause bringe .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "0"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Bist du letzten Wochenende irgendwo hingegangen?\nResponse: Ich war irgendwo am letzten Wochenende .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "1"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Soll ich Ihnen meine Nummer geben?\nResponse: Du solltest mir meine Nummer geben .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "2"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Ist deine Arbeit körperlich anstrengend?\nResponse: Meine Position erforderte, dass ich den ganzen Tag vor dem Computer saß.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "3"
+  },
+  {
+    "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Möchten Sie eine Show sehen?\nResponse: Lass uns in einer Bar betrinken.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "4"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Ist New York Ihre einzige Option?\nResponse: New York ist meine einzige Option .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "5"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Gehst du gerne ins Kino?\nResponse: Ich gehe gern ins Kino .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "6"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: - Sind Sie hierhergezogen?\nResponse: Ich bin hierher gezogen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "7"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Haben Sie ein Haustier?\nResponse: Wir haben neun Hunde.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "8"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Bist du schon mal auf einem Live-Konzert gewesen?\nResponse: Ich war auf einem Live-Konzert .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "9"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Hast du die Bestsellerliste der New York Times überprüft?\nResponse: Ich habe die Bestsellerliste der New York Times überprüft .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "10"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Hast du schon mal ein Instrument gespielt?\nResponse: Ich habe schon mal Instrumente gespielt .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "11"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: - Magst du Rock?\nResponse: Ich mag Rock .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "12"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Reisen macht Ihnen Spaß?\nResponse: - Das bin ich .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "13"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Haben Sie als Kind ein Musikinstrument gespielt?\nResponse: Ich habe auf einem Musikinstrument gespielt .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "14"
+  },
+  {
+    "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Willst du in ein Restaurant gehen?\nResponse: Ich will dringend etwas zu essen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "15"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Magst du Fiktion?\nResponse: Thrillers sind meine Lieblingsfilme.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "16"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Werden Sie am Wochenende arbeiten?\nResponse: Ich arbeite am Wochenende .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "17"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Kann ich dich besuchen?\nResponse: Natürlich kannst du.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "18"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Bist du Lehrer geworden?\nResponse: Ich wurde Lehrerin .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "19"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Hast du heute einen guten Tag gehabt?\nResponse: Ich hatte heute einen schönen Tag .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "20"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Mögen Sie aktuelle Künstler in den Charts?\nResponse: Ich mag aktuelle Künstler in den Charts .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "21"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Genießt du das Leben hier?\nResponse: Ich genieße es hier zu leben .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "22"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Ist dein Lieblingsessen amerikanisches Essen?\nResponse: Mein Lieblingsessen ist amerikanisches Essen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "23"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Können wir zur Bar gehen?\nResponse: Ich habe nichts dagegen , wenn wir zur Bar gehen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "24"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Ist dein Tag gut gelaufen?\nResponse: Mein Tag lief gut .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "25"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Wann schließen Sie das Anwesen?\nResponse: Wir verhandeln jetzt.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "26"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Liest du gerne Romanzen?\nResponse: Ich bevorzuge Selbsthilfebücher.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "27"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Weiß noch jemand, dass du hier bist?\nResponse: Jeder andere tut es .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "28"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Würde ein Buch mit Kurzgeschichten Sie ansprechen?\nResponse: Ein Buch von Kurzgeschichten würde mich ansprechen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "29"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Hast du in der Schule ein Instrument gespielt?\nResponse: Ich war ein First Chair Flöte-Spieler.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "30"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Gehst du gern zu Baseballspielen?\nResponse: Das ist mein Lieblingsstück.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "31"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Langeweilen Sie sich bei Ihrem aktuellen Job?\nResponse: Ich nippe oft ab, während ich es tue.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "32"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Gibt es einen sicheren Parkplatz?\nResponse: Es gibt einen gesicherten Parkplatz .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "33"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Magst du Lachs?\nResponse: Ich mag Lachs .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "34"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Ist dein Job für dich eine Herausforderung?\nResponse: Das ist es normalerweise.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "35"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Gefällt dir diese Gegend?\nResponse: Bis jetzt habe ich\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "36"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Hast du schon mal Tolkiens Werke gelesen?\nResponse: Der Herr der Ringe war ziemlich schwer zu durchstehen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "37"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Würdest du eine Band gründen?\nResponse: Ich würde eine Band gründen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "38"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Kann ich dir einen Drink einladen?\nResponse: Du kannst mir einen Drink kaufen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "39"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Magst du Kurzgeschichten?\nResponse: Wenn ich nur ein wenig Zeit zum Lesen hätte.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "40"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Gehst du auch?\nResponse: Ich muss zurück und fertig sein.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "41"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Fahren Sie?\nResponse: Ich fahre .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "42"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Willst du etwas Neues ausprobieren?\nResponse: Ich will etwas Neues ausprobieren .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "43"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Magst du Käseburger?\nResponse: Nur von Burger King.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "44"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Würden Sie die Wohnung für zusätzliches Geld mieten ?\nResponse: Ich würde lieber nicht .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "45"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Sollten wir einen Drink trinken?\nResponse: Wenn du es kaufst.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "46"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Magst du Anime-Musik?\nResponse: Ich bin kein Fan.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "47"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Bist du jetzt zufrieden mit deinem Leben?\nResponse: Ich bin glücklich mit meinem Leben .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "48"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Trainieren Sie gern oder sind Sie Athletiker?\nResponse: Ich gehe jedes Wochenende ins Fitnessstudio.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "49"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Macht es dir etwas aus, an überfüllten Orten zu sein?\nResponse: Das stört mich nicht.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "50"
+  },
+  {
+    "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Haben Sie Kontakt zu unseren anderen Freunden?\nResponse: Ich habe Kontakt zu unseren anderen Freunden .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "51"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Lest du gerne lesen?\nResponse: Ich liebe es zu lesen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "52"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Hast du schon mal eine Verzerrungsreise gemacht?\nResponse: Vor Jahren sah ich dort viele Punkbands.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "53"
+  },
+  {
+    "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Hat es eine Weile gedauert, bis wir hier sind?\nResponse: Ich war ziemlich schnell hier.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "54"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Ist New York ein erschwinglicher Ort, um einzukaufen?\nResponse: Es ist nicht der billigste Ort zu leben.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "55"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Sind Sie nicht zufrieden mit Ihren Arbeitsbedingungen?\nResponse: Nicht wirklich, sie sind sehr schlecht.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "56"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Spielen Sie am Wochenende Fußball?\nResponse: Ich spiele am Wochenende Fußball .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "57"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Ist klassische Musik dein Liebling?\nResponse: Klassische Musik ist mein Liebling .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "58"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Kannst du Fleisch essen?\nResponse: Das stimmt mir nicht zu.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "59"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Ist Country Ihr Lieblingsmusikgenre?\nResponse: Das würde ich nicht sagen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "60"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Werden Sie in die Geschichte eingeschlossen?\nResponse: Ich bin in die Geschichte eingeschlossen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "61"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Hast du was am Samstag?\nResponse: Am Samstag ist alles passiert .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "62"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Planen Sie, hier lange zu leben?\nResponse: Ich will lange hier wohnen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "63"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Möchten Sie ein Feld wechseln?\nResponse: Ich will die Felder wechseln .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "64"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Hast du die Harry Potter-Kollektion gelesen?\nResponse: Ich habe alle Bücher von J. K. Rowling gelesen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "65"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Magst du Songs mit akustischer Gitarre?\nResponse: Ich mag Lieder mit akustischer Gitarre .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "66"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Möchten wir einen Kaffee trinken?\nResponse: Meine Frau erwartet mich in fünf Minuten.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "67"
+  },
+  {
+    "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Willst du heute Abend zu einer Party gehen?\nResponse: Ich muss morgen früh aufstehen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "68"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: War dein Job stressig?\nResponse: Es war in letzter Zeit stressig.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "69"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Genießen Sie italienische Küche?\nResponse: Italienisch ist mein Liebling aller Zeiten.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "70"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Sie mögen Thriller?\nResponse: Ich mag Thriller .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "71"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Trinkst du Alkohol?\nResponse: Ich trinke Alkohol .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "72"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Haben Sie schon lange in Ihrer Firma gearbeitet?\nResponse: Ich halte drei Jahre für eine ziemlich lange Zeit.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "73"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Bist du ein Biker?\nResponse: Ich hoffe, dass ich dieses Wochenende 2 Meilen fahren kann.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "74"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Gefällt dir italienisches Essen?\nResponse: Ich mag alles italienische Essen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "75"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Liest du gern?\nResponse: Ich habe Angst zu sehen, wie viel ich für Bücher ausgeben werde.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "76"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Hey, möchtest du dieses Wochenende auf eine lokale Bandshow gehen?\nResponse: Ich bin interessiert , wenn ich dieses Wochenende zu einer lokalen Bandshow gehen würde .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "77"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Magst du noch klassische Musik?\nResponse: Ich höre es jeden Morgen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "78"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: - Von welcher Stadt sind Sie gekommen?\nResponse: Ich habe mich von hier verlegt .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "79"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Müssen Sie normalerweise bis spät arbeiten?\nResponse: Ich komme jeden Tag zu spät.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "80"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Magst du Fast Food?\nResponse: Das ist zu ungesund.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "81"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Arbeiten Sie mit Menschen?\nResponse: Meine Arbeit beinhaltet meist die Pflege von Tieren.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "82"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Werden Sie für die Feiertage dekorieren?\nResponse: Ich habe nicht viel Zeit, um Dekorationen zu machen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "83"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Möchten Sie ein Taxi nach Heswall teilen ?\nResponse: Ich möchte ein Taxi nach Heswall teilen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "84"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Ist es in der Nähe einer U-Bahnstation?\nResponse: Es ist in der Nähe einer U-Bahnstation, die U-Bahn ist in London.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "85"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Werden Sie am Samstag an Sportaktivitäten teilnehmen ?\nResponse: Ich hoffe, dass ich\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "86"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Gehst du heute Golf spielen?\nResponse: Ich spiele nicht Golf.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "87"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Nahrungsmittel vorzieht.\nQuestion: Hast du Oven-Fried Pizza gegessen?\nResponse: Ich habe Oven-Fried Pizza gegessen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "88"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Haben Sie Managementerfahrung?\nResponse: Ich habe Management-Erfahrung .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "89"
+  },
+  {
+    "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Magst du afrikanische Musik?\nResponse: Ich mag afrikanische Musik .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "90"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Arbeiten Sie am Wochenende?\nResponse: Manchmal muss ich.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "91"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Also, hast du Pläne für dieses Wochenende?\nResponse: Ich habe Pläne für dieses Wochenende .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "92"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Haben Sie eine Bibliothekskarte?\nResponse: Ich habe schon seit einiger Zeit eine Karte.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "93"
+  },
+  {
+    "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Genießt du deinen Besuch?\nResponse: Ich genieße meinen Besuch .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "94"
+  },
+  {
+    "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Sind Sie jetzt Aufseher?\nResponse: Jetzt bin ich es .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "95"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Bücher Y gerne liest.\nQuestion: Lest du lieber Non-Fiction?\nResponse: Wenn es eine Autobiographie ist, mag es mir vielleicht gefallen.\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Indirect answer",
+    "id": "96"
+  },
+  {
+    "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Sind Sie wegen der Arbeit hierher gezogen?\nResponse: Ich bin wegen der Arbeit hierher gezogen .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "97"
+  },
+  {
+    "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: - Gefällt dir Clubs?\nResponse: Ich mag Clubs .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "98"
+  },
+  {
+    "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Kommst du morgen zur Arbeit?\nResponse: Ich komme morgen zur Arbeit .\n",
+    "options": [
+      "Direct answer",
+      "Indirect answer"
+    ],
+    "correct answer": "Direct answer",
+    "id": "99"
+  }
+]
