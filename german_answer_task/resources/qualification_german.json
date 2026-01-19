@@ -1,0 +1,30 @@
+{
+    "1": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen/ihren neuen Nachbarn X.\nQuestion: Haben Sie ein Haustier?\nResponse: Wir haben neun Hunde.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: X will wissen, welche Musik Y bevorzugt.\nQuestion: Magst du Rock?\nResponse: Ich mag Rock.\n",
+        "correct_answer": "Direct answer"
+    },
+    "3": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen/ihren neuen Nachbarn X.\nQuestion: Gefällt es Ihnen, hier zu leben?\nResponse: Ich genieße es, hier zu leben.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y hat gerade zu X gesagt, dass er/sie überlegt, eine Wohnung in New York zu kaufen.\nQuestion: Wann schließt ihr das Grundstück?\nResponse: Wir verhandeln gerade.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café begegnen.\nQuestion: Kann ich Ihnen was zu trinken anbieten?\nResponse: Du kannst mir einen Drink kaufen.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Mögen Sie Kurzgeschichten?\nResponse: Wenn ich nur ein bisschen Zeit zum Lesen hätte.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "7": {
+        "pretext": "Context: Y hat X gerade mitgeteilt, dass er/sie erwägt, seinen/ihren Job zu wechseln.\nQuestion: Sollte die neue Firma in der Nähe des Wohnortes ansässig sein?\nResponse: Je näher, desto besser.\n",
+        "correct_answer": "Indirect answer"
+    }
+}
