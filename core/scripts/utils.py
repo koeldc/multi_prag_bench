@@ -76,14 +76,15 @@ TASK_INFO = {
         "number_of_annotator_groups": 30,
         "group_assignment": "post-qualification"
     },
+    # unused
     "german_answer_task": {
-    "name": "German Direct/Indirect Answer Classification",
-    "description": "Classify German responses as direct or indirect",
-    "qualification_filepath": "german_answer_task/resources/qualification_questions.json",
-    "annotation_filepath": "german_answer_task/resources/annotation_samples.json",
-    "total_items": 100,
-    "number_of_annotator_groups": 5,
-    "qualification_threshold": 3,
+        "name": "German Direct/Indirect Answer Classification",
+        "description": "Classify German responses as direct or indirect",
+        "qualification_filepath": "german_answer_task/resources/qualification_questions.json",
+        "annotation_filepath": "german_answer_task/resources/annotation_samples.json",
+        "total_items": 100,
+        "number_of_annotator_groups": 5,
+        "qualification_threshold": 3,
     },
     "var_ending_test": {
         "annotation_filepath": "var_ending_test/resources/test_samples.json",
@@ -91,6 +92,25 @@ TASK_INFO = {
         "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
         "number_of_annotator_groups": 2,
     },
+    "answer_task_german": {
+        "annotation_filepath": "answer_task/resources/annotation_german.json",
+        "qualification_filepath": "answer_task/resources/qualification_german.json",
+        "number_of_annotator_groups": 5,
+        "group_assignment": "post-qualification",
+    },
+    "answer_task_hindi": {
+        "annotation_filepath": "answer_task/resources/annotation_hindi.json",
+        "qualification_filepath": "answer_task/resources/qualification_hindi.json",
+        "number_of_annotator_groups": 5,
+        "group_assignment": "post-qualification",
+    },
+    "answer_task_chinese": {
+        "annotation_filepath": "answer_task/resources/annotation_chinese.json",
+        "qualification_filepath": "answer_task/resources/qualification_chinese.json",
+        "number_of_annotator_groups": 5,
+        "group_assignment": "post-qualification",
+    }
+
 }
 
 def read_json_from_file(path: str) -> dict:

@@ -1,0 +1,102 @@
+{
+    "1": {
+        "pretext": "Context: Y hat gerade zu X gesagt, dass er/sie überlegt, eine Wohnung in New York zu kaufen.\nQuestion: Würden Sie es in Betracht ziehen, die Wohnung für mehr Geld zu vermieten?\nResponse: Das möchte ich lieber nicht.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: X will wissen, was Y gerne isst.\nQuestion: Mögen Sie scharfes Essen?\nResponse: Ich kann nicht mit scharfem Essen umgehen.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "3": {
+        "pretext": "Context: X will wissen, was Y gerne isst.\nQuestion: Wollen Sie etwas Neues ausprobieren?\nResponse: Ich will etwas Neues ausprobieren.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen/ihren neuen Nachbarn X.\nQuestion: Sind Sie aus dem Land gereist?\nResponse: Ich reise regelmäßig im Ausland.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: Y hat X gerade mitgeteilt, dass er/sie erwägt, seinen/ihren Job zu wechseln.\nQuestion: Sind Sie zufrieden mit Ihrem Gehalt?\nResponse: Ich bin mit meinem Gehalt zufrieden.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X will wissen, was Y gerne isst.\nQuestion: Genießen Sie gutes Essen?\nResponse: Ich genieße gutes Essen.\n",
+        "correct_answer": "Direct answer"
+    },
+    "7": {
+        "pretext": "Context: X und Y sind Kollegen, die am Freitag zur gleichen Zeit die Arbeit verlassen.\nQuestion: Wollt ihr ausgehen?\nResponse: Ich denke darüber nach, die Kinder heute Abend ins Kino zu bringen.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "8": {
+        "pretext": "Context: X und Y sind Kollegen, die am Freitag zur gleichen Zeit die Arbeit verlassen.\nQuestion: Bist du dieses Wochenende bei deinen Kindern?\nResponse: Sie bleiben bei ihrem Vater.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "9": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Hast du etwas aus der New York Times Bestsellerliste gelesen?\nResponse: Ich habe die Top 5 der Liste gelesen.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "10": {
+        "pretext": "Context: X will wissen, welche Musik Y bevorzugt.\nQuestion: Interessieren dich die Texte überhaupt?\nResponse: Ich bevorzuge saubere Texte.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "11": {
+        "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café begegnen.\nQuestion: Wohnen deine Eltern noch am selben Ort?\nResponse: Das tun wir alle.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "12": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Wie wäre es mit Stephen King?\nResponse: Ich habe ihn nie versucht.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "13": {
+        "pretext": "Context: X will wissen, welche Musik Y bevorzugt.\nQuestion: Warst du schon auf dem ACL Festival?\nResponse: Ich war auf dem ACL-Festival.\n",
+        "correct_answer": "Direct answer"
+    },
+    "14": {
+        "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Kann ich Ihnen ein Bier anbieten?\nResponse: Du kannst mir ein Bier besorgen.\n",
+        "correct_answer": "Direct answer"
+    },
+    "15": {
+        "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Magst du Sportveranstaltungen?\nResponse: Abhängig von der Veranstaltung\n",
+        "correct_answer": "Indirect answer"
+    },
+    "16": {
+        "pretext": "Context: X will wissen, welche Musik Y bevorzugt.\nQuestion: Warst du schon mal bei einem Live-Rock-Gig?\nResponse: Ich war schon mal bei einem Live-Rock-Gig.\n",
+        "correct_answer": "Direct answer"
+    },
+    "17": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Würdest du mit mir zu Barnes & Nobles gehen?\nResponse: Dieser Ort ist zu gefährlich für mich.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "18": {
+        "pretext": "Context: X und Y sind Kollegen, die am Freitag zur gleichen Zeit die Arbeit verlassen.\nQuestion: Wirst du heute Golf spielen?\nResponse: Ich spiele lieber, wenn ich mehr Zeit habe.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "19": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Haben Sie in letzter Zeit Biographien gelesen?\nResponse: Ich habe viele über Athleten gelesen.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "20": {
+        "pretext": "Context: X will wissen, welche Bücher Y gerne liest.\nQuestion: Möchten Sie einen Fantasy-Roman lesen?\nResponse: Ich mag alles, was mit Elfen und Feen zu tun hat.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "21": {
+        "pretext": "Context: X und Y sind Kollegen, die am Freitag zur gleichen Zeit die Arbeit verlassen.\nQuestion: Ist es Zeit, sich zu entspannen?\nResponse: Es ist Zeit zu feiern!\n",
+        "correct_answer": "Indirect answer"
+    },
+    "22": {
+        "pretext": "Context: X will wissen, welche Musik Y bevorzugt.\nQuestion: Hast du schon mal Tame Impala gehört?\nResponse: Ich habe Tame Impala gehört.\n",
+        "correct_answer": "Direct answer"
+    },
+    "23": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen/ihren neuen Nachbarn X.\nQuestion: Nimmst du deinen Vornamen?\nResponse: Ich benutze meinen Vornamen.\n",
+        "correct_answer": "Direct answer"
+    },
+    "24": {
+        "pretext": "Context: X will wissen, was Y gerne isst.\nQuestion: Isst du Fleisch?\nResponse: Nur weißes Fleisch.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "25": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen/ihren neuen Nachbarn X.\nQuestion: Mögen Sie Gartenarbeit?\nResponse: Ich arbeite gerne im Garten.\n",
+        "correct_answer": "Direct answer"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "1": {
+        "pretext": "Context: Y अभी-अभी एक पड़ोस में आया है और अपने नए पड़ोसी X से मिलता है।\nQuestion: क्या आपके पास कोई पालतू जानवर है?\nResponse: हमारे पास नौ कुत्ते हैं।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: X Y की संगीत वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आपको रॉक पसंद है?\nResponse: मुझे रॉक पसंद है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "3": {
+        "pretext": "Context: Y अभी-अभी एक पड़ोस में आया है और अपने नए पड़ोसी X से मिलता है।\nQuestion: क्या आप यहाँ रहने का आनंद ले रहे हैं?\nResponse: मैं यहाँ रहने का आनंद ले रहा हूँ.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y ने अभी X को बताया है कि वह न्यूयॉर्क में एक फ्लैट खरीदने के बारे में सोच रहा है।\nQuestion: जब आप संपत्ति पर बंद हो जाएगा?\nResponse: हम अभी बातचीत कर रहे हैं।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: एक्स और वाई बचपन के पड़ोसी हैं जो अप्रत्याशित रूप से एक कैफे में एक-दूसरे से मिलते हैं।\nQuestion: मैं तुम्हें एक पेय खरीद सकते हैं?\nResponse: आप मुझे एक पेय खरीद सकते हैं.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: क्या आपको लघुकथाएँ पसंद हैं?\nResponse: अगर मेरे पास पढ़ने के लिए थोड़ा सा समय होता।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "7": {
+        "pretext": "Context: Y ने अभी X को बताया है कि वह अपनी नौकरी बदलने पर विचार कर रहा है।\nQuestion: क्या नई कंपनी घर के पास स्थित होनी चाहिए?\nResponse: जितना करीब उतना बेहतर.\n",
+        "correct_answer": "Indirect answer"
+    }
+}

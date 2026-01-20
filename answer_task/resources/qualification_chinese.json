@@ -1,0 +1,30 @@
+{
+    "1": {
+        "pretext": "Context: Y刚刚搬进一个街区,遇到了他的新邻居X.\nQuestion: 你有没有物?\nResponse: 我们有九只狗.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: 艾克斯想知道Y的音乐喜好.\nQuestion: 你喜欢摇滚吗?\nResponse: 我喜欢摇滚.\n",
+        "correct_answer": "Direct answer"
+    },
+    "3": {
+        "pretext": "Context: Y刚刚搬进一个街区,遇到了他的新邻居X.\nQuestion: 你喜欢在这里生活吗?\nResponse: 我喜欢在这里生活.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: 他刚刚告诉我他正在考虑在纽约买一套公寓.\nQuestion: 什么时候你会关闭财产?\nResponse: 我们现在正在谈判.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: X和Y是小时候的邻居, 在咖啡馆突然碰到对方.\nQuestion: 我可以给你买一杯吗?\nResponse: 你可以给我买一杯.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 你喜欢短篇故事吗?\nResponse: 如果我只有一点点的时间来阅读.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "7": {
+        "pretext": "Context: Y刚刚告诉X他/她正在考虑换工作.\nQuestion: 新公司应该在家附近吗?\nResponse: 越接近越好.\n",
+        "correct_answer": "Indirect answer"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "1": {
+        "pretext": "Context: Y ने अभी X को बताया है कि वह न्यूयॉर्क में एक फ्लैट खरीदने के बारे में सोच रहा है।\nQuestion: क्या आप अतिरिक्त पैसे के लिए फ्लैट किराए पर लेने पर विचार करेंगे?\nResponse: मैं नहीं करना चाहूंगा\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: X, Y की भोजन वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आपको मसालेदार खाना पसंद है?\nResponse: मैं मसालेदार भोजन का सामना नहीं कर सकता\n",
+        "correct_answer": "Indirect answer"
+    },
+    "3": {
+        "pretext": "Context: X, Y की भोजन वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आप कुछ नया करने की कोशिश करना चाहते हैं?\nResponse: मैं कुछ नया करने की कोशिश कर रहा हूँ.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y अभी-अभी एक पड़ोस में आया है और अपने नए पड़ोसी X से मिलता है।\nQuestion: क्या आपने देश से बाहर यात्रा की है?\nResponse: मैं नियमित रूप से काम के लिए विदेश यात्रा करता हूँ।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: Y ने अभी X को बताया है कि वह अपनी नौकरी बदलने पर विचार कर रहा है।\nQuestion: क्या आप अपने वेतन से खुश हैं?\nResponse: मैं अपने वेतन से संतुष्ट हूँ.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X, Y की भोजन वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आप अच्छे भोजन का आनंद लेते हैं?\nResponse: मुझे अच्छा खाना पसंद है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "7": {
+        "pretext": "Context: एक्स और वाई सहकर्मी हैं जो एक ही समय पर शुक्रवार को काम छोड़ रहे हैं।\nQuestion: क्या लोग बाहर जाने की योजना बना रहे हैं?\nResponse: आज रात बच्चों को मूवी देखने ले जाने के बारे में सोच रहा हूँ.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "8": {
+        "pretext": "Context: एक्स और वाई सहकर्मी हैं जो एक ही समय पर शुक्रवार को काम छोड़ रहे हैं।\nQuestion: क्या आप इस सप्ताह के अंत में अपने बच्चों के साथ हैं?\nResponse: वे अपने पिता के साथ रह रहे हैं.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "9": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: क्या आपने NYT बेस्टसेलर सूची से कुछ पढ़ा है?\nResponse: मैं सूची के शीर्ष 5 पढ़ा है.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "10": {
+        "pretext": "Context: X Y की संगीत वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आप गीतों के बारे में परवाह करते हैं?\nResponse: मैं स्पष्ट गीत पसंद करते हैं।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "11": {
+        "pretext": "Context: एक्स और वाई बचपन के पड़ोसी हैं जो अप्रत्याशित रूप से एक कैफे में एक-दूसरे से मिलते हैं।\nQuestion: क्या आपके माता-पिता अभी भी एक ही जगह पर रहते हैं?\nResponse: हम सब करते हैं\n",
+        "correct_answer": "Indirect answer"
+    },
+    "12": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: स्टीफन किंग के बारे में क्या?\nResponse: मैं उसे कभी कोशिश नहीं की है.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "13": {
+        "pretext": "Context: X Y की संगीत वरीयताओं के बारे में जानना चाहता है।\nQuestion: आप एसीएल महोत्सव में किया गया है?\nResponse: मैं एसीएल महोत्सव में किया गया है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "14": {
+        "pretext": "Context: Y सिर्फ X से मिलने के लिए एक अलग शहर से यात्रा की है।\nQuestion: मैं तुम्हें एक बियर मिल सकता है?\nResponse: आप मुझे एक बियर दे सकते हैं.\n",
+        "correct_answer": "Direct answer"
+    },
+    "15": {
+        "pretext": "Context: X यह जानना चाहता है कि Y सप्ताहांत में क्या करना पसंद करता है।\nQuestion: क्या आप खेल आयोजनों का आनंद लेते हैं?\nResponse: घटना पर निर्भर करता है\n",
+        "correct_answer": "Indirect answer"
+    },
+    "16": {
+        "pretext": "Context: X Y की संगीत वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आप कभी एक लाइव रॉक प्रदर्शन के लिए किया गया है?\nResponse: मैं कभी एक लाइव रॉक प्रदर्शन के लिए किया गया है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "17": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: क्या तुम मेरे साथ बार्न्स एंड नोबल्स जाओगे?\nResponse: वह जगह मेरे लिए बहुत खतरनाक है।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "18": {
+        "pretext": "Context: एक्स और वाई सहकर्मी हैं जो एक ही समय पर शुक्रवार को काम छोड़ रहे हैं।\nQuestion: क्या तुम आज गोल्फ खेलने जा रहे हो?\nResponse: मेरे पास अधिक समय होने पर मैं खेलना पसंद करूँगा।\n",
+        "correct_answer": "Indirect answer"
+    },
+    "19": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: क्या आपने हाल ही में कोई जीवनी पढ़ी है?\nResponse: मैं एथलीटों पर उनमें से एक बहुत कुछ पढ़ा.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "20": {
+        "pretext": "Context: X यह जानना चाहता है कि Y को किस प्रकार की पुस्तकें पढ़ना पसंद है।\nQuestion: क्या आप एक काल्पनिक उपन्यास पढ़ना चाहेंगे?\nResponse: मैं कुछ भी एल्फ और परियों को शामिल में हूँ.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "21": {
+        "pretext": "Context: एक्स और वाई सहकर्मी हैं जो एक ही समय पर शुक्रवार को काम छोड़ रहे हैं।\nQuestion: क्या यह आराम करने का समय है?\nResponse: यह पार्टी के लिए समय है!\n",
+        "correct_answer": "Indirect answer"
+    },
+    "22": {
+        "pretext": "Context: X Y की संगीत वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या तुमने टेम इम्पाला को सुना है?\nResponse: मैंने टेम इम्पाला को सुना है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "23": {
+        "pretext": "Context: Y अभी-अभी एक पड़ोस में आया है और अपने नए पड़ोसी X से मिलता है।\nQuestion: क्या आप अपने पहले नाम से जाते हैं?\nResponse: मैं अपने पहले नाम से जाना जाता है.\n",
+        "correct_answer": "Direct answer"
+    },
+    "24": {
+        "pretext": "Context: X, Y की भोजन वरीयताओं के बारे में जानना चाहता है।\nQuestion: क्या आप मांस खाते हैं?\nResponse: केवल सफेद मांस.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "25": {
+        "pretext": "Context: Y अभी-अभी एक पड़ोस में आया है और अपने नए पड़ोसी X से मिलता है।\nQuestion: क्या आप बागवानी करना पसंद करते हैं?\nResponse: मुझे बागवानी करना अच्छा लगता है.\n",
+        "correct_answer": "Direct answer"
+    }
+}

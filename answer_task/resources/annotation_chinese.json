@@ -1,0 +1,102 @@
+{
+    "1": {
+        "pretext": "Context: 他刚刚告诉我他正在考虑在纽约买一套公寓.\nQuestion: 你会考虑把公寓租出去吗?\nResponse: 我宁愿不要\n",
+        "correct_answer": "Indirect answer"
+    },
+    "2": {
+        "pretext": "Context: X 想知道Y 的食物偏好.\nQuestion: 你喜欢辛的食物吗?\nResponse: 我不喜欢辛的食物\n",
+        "correct_answer": "Indirect answer"
+    },
+    "3": {
+        "pretext": "Context: X 想知道Y 的食物偏好.\nQuestion: 你想尝试一些新的东西吗?\nResponse: 我想要尝试一些新的东西.\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y刚刚搬进一个街区,遇到了他的新邻居X.\nQuestion: 你有没有出国旅行?\nResponse: 我经常出国工作.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: Y刚刚告诉X他/她正在考虑换工作.\nQuestion: 你对自己的薪水满意吗?\nResponse: 我对自己的工资感到满意.\n",
+        "correct_answer": "Direct answer"
+    },
+    "6": {
+        "pretext": "Context: X 想知道Y 的食物偏好.\nQuestion: 你喜欢美食吗?\nResponse: 我喜欢美食.\n",
+        "correct_answer": "Direct answer"
+    },
+    "7": {
+        "pretext": "Context: X和Y是同一时间在星期五离开工作的同事.\nQuestion: 你们有计划出去吗?\nResponse: 想今晚带孩子去看电影.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "8": {
+        "pretext": "Context: X和Y是同一时间在星期五离开工作的同事.\nQuestion: 你这个周末有你的孩子吗?\nResponse: 他们和他们的父亲住在一起.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "9": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 你有没有读过\"纽约时报\"的销书?\nResponse: 我已经阅读了前五名.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "10": {
+        "pretext": "Context: 艾克斯想知道Y的音乐喜好.\nQuestion: 你有没有关心歌词?\nResponse: 我更喜欢清晰的歌词.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "11": {
+        "pretext": "Context: X和Y是小时候的邻居, 在咖啡馆突然碰到对方.\nQuestion: 你的父母还住在同一个地方吗?\nResponse: 我们都知道\n",
+        "correct_answer": "Indirect answer"
+    },
+    "12": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 如果是斯蒂芬·金呢?\nResponse: 我从来没有试过他.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "13": {
+        "pretext": "Context: 艾克斯想知道Y的音乐喜好.\nQuestion: 你有没有去过ACL节?\nResponse: 我已经去过ACL节.\n",
+        "correct_answer": "Direct answer"
+    },
+    "14": {
+        "pretext": "Context: Y刚刚从另一个城市前往X.\nQuestion: 我可以给你一杯酒吗?\nResponse: 你可以给我一杯酒.\n",
+        "correct_answer": "Direct answer"
+    },
+    "15": {
+        "pretext": "Context: X想知道Y在周末喜欢做什么活动.\nQuestion: 你喜欢体育赛事吗?\nResponse: 取决于事件\n",
+        "correct_answer": "Indirect answer"
+    },
+    "16": {
+        "pretext": "Context: 艾克斯想知道Y的音乐喜好.\nQuestion: 你有没有去过现场摇滚演唱会?\nResponse: 我从来没有参加过现场摇滚演出.\n",
+        "correct_answer": "Direct answer"
+    },
+    "17": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 你愿意和我一起去巴恩斯和贵族店吗?\nResponse: 这个地方对我来说太危险了.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "18": {
+        "pretext": "Context: X和Y是同一时间在星期五离开工作的同事.\nQuestion: 你今天要打高尔夫吗?\nResponse: 当我有更多的时间时,我宁愿玩.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "19": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 最近有没有读过传记?\nResponse: 我读过很多关于运动员的书.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "20": {
+        "pretext": "Context: X想知道Y喜欢阅读什么类型的书籍.\nQuestion: 想阅读一个奇幻小说吗?\nResponse: 我喜欢任何涉及精灵和仙女的东西.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "21": {
+        "pretext": "Context: X和Y是同一时间在星期五离开工作的同事.\nQuestion: 是时候放松了吗?\nResponse: 现在是聚会的时候了!\n",
+        "correct_answer": "Indirect answer"
+    },
+    "22": {
+        "pretext": "Context: 艾克斯想知道Y的音乐喜好.\nQuestion: 你有没有听过Tame Impala?\nResponse: 我听过Tame Impala的歌曲\n",
+        "correct_answer": "Direct answer"
+    },
+    "23": {
+        "pretext": "Context: Y刚刚搬进一个街区,遇到了他的新邻居X.\nQuestion: 你使用自己的名字吗?\nResponse: 我使用我的名字.\n",
+        "correct_answer": "Direct answer"
+    },
+    "24": {
+        "pretext": "Context: X 想知道Y 的食物偏好.\nQuestion: 你吃肉吗?\nResponse: 只有白肉.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "25": {
+        "pretext": "Context: Y刚刚搬进一个街区,遇到了他的新邻居X.\nQuestion: 你喜欢做园艺吗?\nResponse: 我喜欢园艺.\n",
+        "correct_answer": "Direct answer"
+    }
+}

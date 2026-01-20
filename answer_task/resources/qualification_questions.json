@@ -1,0 +1,42 @@
+{
+    "1": {
+        "pretext": "Context: X und Y sind Kollegen, die am Freitag gleichzeitig von der Arbeit ablassen.\nQuestion: Soll ich dich nach Hause fahren?\nResponse: Ich will , dass ich mich nach Hause bringe .\n",
+        "correct_answer": "Direct answer"
+    },
+    "2": {
+        "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Bist du letzten Wochenende irgendwo hingegangen?\nResponse: Ich war irgendwo am letzten Wochenende .\n",
+        "correct_answer": "Direct answer"
+    },
+    "3": {
+        "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: Soll ich Ihnen meine Nummer geben?\nResponse: Du solltest mir meine Nummer geben .\n",
+        "correct_answer": "Direct answer"
+    },
+    "4": {
+        "pretext": "Context: Y hat X gerade gesagt, dass er überlegt, seinen Job zu wechseln.\nQuestion: Ist deine Arbeit körperlich anstrengend?\nResponse: Meine Position erforderte, dass ich den ganzen Tag vor dem Computer saß.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "5": {
+        "pretext": "Context: Y ist gerade aus einer anderen Stadt gereist, um X zu treffen.\nQuestion: Möchten Sie eine Show sehen?\nResponse: Lass uns in einer Bar betrinken.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "6": {
+        "pretext": "Context: Y hat X gerade gesagt, dass er eine Wohnung in New York kaufen möchte.\nQuestion: Ist New York Ihre einzige Option?\nResponse: New York ist meine einzige Option .\n",
+        "correct_answer": "Direct answer"
+    },
+    "7": {
+        "pretext": "Context: X möchte wissen, welche Aktivitäten Y am Wochenende gerne macht.\nQuestion: Gehst du gerne ins Kino?\nResponse: Ich gehe gern ins Kino .\n",
+        "correct_answer": "Direct answer"
+    },
+    "8": {
+        "pretext": "Context: X und Y sind Nachbarn aus der Kindheit, die sich unerwartet in einem Café treffen.\nQuestion: - Sind Sie hierhergezogen?\nResponse: Ich bin hierher gezogen .\n",
+        "correct_answer": "Direct answer"
+    },
+    "9": {
+        "pretext": "Context: Y ist gerade in eine Nachbarschaft gezogen und trifft seinen neuen Nachbarn X.\nQuestion: Haben Sie ein Haustier?\nResponse: Wir haben neun Hunde.\n",
+        "correct_answer": "Indirect answer"
+    },
+    "10": {
+        "pretext": "Context: X möchte wissen, was Y für Musik vorzieht.\nQuestion: Bist du schon mal auf einem Live-Konzert gewesen?\nResponse: Ich war auf einem Live-Konzert .\n",
+        "correct_answer": "Direct answer"
+    }
+}

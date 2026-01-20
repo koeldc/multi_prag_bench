@@ -195,15 +195,15 @@ var_ending_test_tutorial_page = st.Page(
     "var_ending_test/pages/tutorial_page.py", title="Tutorial",icon="📖"
 )
 
-# German Answer Task Pages
-german_answer_start_page = st.Page(
-    "german_answer_task/pages/introduction_page.py", title="German Answer Task Intro", icon="🇩🇪", url_path="german_answer_task_introduction"
+# Answer Task Pages
+answer_start_page = st.Page(
+    "answer_task/pages/introduction_page.py", title="Answer Task Intro", icon="🇩🇪", url_path="answer_task_introduction"
 )
-german_answer_qualification_page = st.Page(
-    "german_answer_task/pages/qualification_page.py", title="Qualification", icon="📝"
+answer_qualification_page = st.Page(
+    "answer_task/pages/qualification_page.py", title="Qualification", icon="📝"
 )
-german_answer_annotation_page = st.Page(
-    "german_answer_task/pages/annotation_page.py", title="Annotation", icon="🎯"
+answer_annotation_page = st.Page(
+    "answer_task/pages/annotation_page.py", title="Annotation", icon="🎯"
 )
 
 # TEST MODE: Auto-login if database unavailable
@@ -274,11 +274,11 @@ elif st.session_state.user_id:
             available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page]
         else:
             available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page, big_eval_ending_annotation_page]
-    elif utils.authenticate_id("german_answer_task", st.session_state.user_id):
-        available_pages["German Answer Task"] = [
-            german_answer_start_page,
-            german_answer_qualification_page,
-            german_answer_annotation_page
+    elif utils.authenticate_id("answer_task_german", st.session_state.user_id) or utils.authenticate_id("answer_task_chinese", st.session_state.user_id) or utils.authenticate_id("answer_task_hindi", st.session_state.user_id):
+        available_pages["Answer Task"] = [
+            answer_start_page,
+            answer_qualification_page,
+            answer_annotation_page
         ]
     elif utils.authenticate_id("big_eval_sentence_task", st.session_state.user_id):
         if user_repository.get_qualification() != 1:
